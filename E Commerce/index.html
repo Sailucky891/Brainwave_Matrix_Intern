@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VK's Fashion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Top Info Bar -->
+  <section class="top-txt">
+    <div class="head container">
+      <div class="head-txt">
+        <p>Free shipping, 30-day return or refund guarantee.</p>
+      </div>
+      <div class="sing_in_up">
+        <a href="#">SIGN IN</a>
+        <a href="#">SIGN UP</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <input type="checkbox" id="checkbox" />
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sellers">Shop</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="logo">
+        <h1>VK'S FASHION.</h1>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home_page">
+      <div class="home_img">
+        <img src="https://i.postimg.cc/t403yfn9/home2.jpg" alt="home banner" />
+      </div>
+      <div class="home_txt">
+        <p class="collectio">SUMMER COLLECTION</p>
+        <h2>FALL - WINTER<br />Collection 2023</h2>
+        <div class="home_label">
+          <p>A specialist label creating luxury essentials. Ethically crafted with an unwavering commitment to exceptional quality.</p>
+        </div>
+        <button><a href="#sellers">SHOP NOW</a></button>
+        <div class="home_social_icons">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class='bx bxl-pinterest'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="sellers">
+    <div class="seller container">
+      <h2>Top Sales</h2>
+      <div class="best-seller">
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/8CmBZH5N/shoes.webp" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Shoes</p>
+            <p>$37.24</p>
+            <button onclick="addToCart('PS England Shoes', 37.24, 'https://i.postimg.cc/8CmBZH5N/shoes.webp')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/76X9ZV8m/Screenshot_from_2022-06-03_18-45-12.png" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Jacket</p>
+            <p>$17.24</p>
+            <button onclick="addToCart('PS England Jacket', 17.24, 'https://i.postimg.cc/76X9ZV8m/Screenshot_from_2022-06-03_18-45-12.png')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/fbnB2yfj/na1.png" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England T-Shirt</p>
+            <p>$10.23</p>
+            <button onclick="addToCart('PS England T-Shirt', 10.23, 'https://i.postimg.cc/fbnB2yfj/na1.png')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/zD02zJq8/na2.png" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Bag</p>
+            <p>$9.28</p>
+            <button onclick="addToCart('PS England Bag', 9.28, 'https://i.postimg.cc/zD02zJq8/na2.png')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/Dfj5VBcz/sunglasses1.jpg" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Sunglass</p>
+            <p>$6.24</p>
+            <button onclick="addToCart('PS England Sunglass', 6.24, 'https://i.postimg.cc/Dfj5VBcz/sunglasses1.jpg')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/RhVP7YQk/hs1.png" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England T-Shirt</p>
+            <p>$15.24</p>
+            <button onclick="addToCart('PS England T-Shirt', 15.24, 'https://i.postimg.cc/RhVP7YQk/hs1.png')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/j2FhzSjf/bs2.png" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Shirt</p>
+            <p>$27.24</p>
+            <button onclick="addToCart('PS England Shirt', 27.24, 'https://i.postimg.cc/j2FhzSjf/bs2.png')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/QtjSDzPF/bs3.png" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Sneakers</p>
+            <p>$43.67</p>
+            <button onclick="addToCart('PS England Sneakers', 43.67, 'https://i.postimg.cc/QtjSDzPF/bs3.png')">Add to Cart</button>
+          </div>
+        </div>
+        <div class="best-p1">
+          <img src="https://i.postimg.cc/9MXPK7RT/news2.jpg" alt="product" />
+          <div class="best-p1-txt">
+            <p>PS England Watch</p>
+            <p>$22.99</p>
+            <button onclick="addToCart('PS England Watch', 22.99, 'https://i.postimg.cc/9MXPK7RT/news2.jpg')">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <form action="https://formspree.io/f/xzbowpjq" method="POST">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container container">
+      <p>&copy; <span id="year"></span> VK's Fashion. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

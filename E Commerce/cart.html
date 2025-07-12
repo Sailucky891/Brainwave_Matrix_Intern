@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - Karthik's Fashion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    .cart-container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border: 1px solid #ccc;
+    }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .cart-item img {
+      width: 80px;
+      height: auto;
+    }
+    .cart-item-info {
+      flex: 1;
+      padding-left: 20px;
+    }
+    .cart-total {
+      text-align: right;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .clear-cart-btn {
+      margin-top: 20px;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="cart-container">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div class="cart-total" id="cart-total">Total: $0.00</div>
+
+    <button class="clear-cart-btn" onclick="clearCart()">Clear Cart</button>
+    <button class="clear-cart-btn" onclick="buyAllItems()">Buy Now</button>
+
+  </div>
+
+  <script src="cart.js"></script>
+</body>
+</html>
